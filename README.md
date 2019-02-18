@@ -1,6 +1,10 @@
 ![Blex Image](https://yt3.ggpht.com/-JRwX7pOt8nk/AAAAAAAAAAI/AAAAAAAAAAA/WIuQ1Zm0J5k/s88-c-k-no-mo-rj-c0xffffff/photo.jpg)
 
+
+
 **DFSNBA_Team_Builder**
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Blex42)
 
 **Install**
 
@@ -128,3 +132,5 @@ This package was created to use the draftkings lineup file for any given night a
 
 
 [GitHub_Repo](https://github.com/Blex42/DFS_NBA_Team_Builder)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Blex42)
