@@ -7,9 +7,9 @@
 `pip install DFSNBA-TeamBuilder`
 
 
+Pandas is needed to import and export the offical draftkings file
 
 ```python
-##You need this to import in the draftkings file
 import pandas as pd
 
 ##This is the actual package that you just downloaded
@@ -18,53 +18,43 @@ from DFS_NBA_Team_Builder import DK_TeamBuilder
 
 ```
 
+Set the variables
+
+**Import the draftkings file**
 
 ```python
-##Set the variables
-
-#Import the draftkings file
 dfr=pd.read_csv("ExampleDKFile.csv")#This is the example file from GitHub
+```
 
-#Set how many players you want to sample
+Set how many players you want to sample
 
-#1 is no sampling 0 remove alls players .20 leaves you 20% of the players
-#from the dk file
+**1 is no sampling 0 remove alls players .20 leaves you 20% of the players
+#from the dk file**
 
+```python
 samplepercent= .20
+```
+**How many teams do you want to create**
 
-#How many teams do you want to create
+```python
 dkteams =20
 ```
 
+**Use this exact function to call and create you lineups**
 
 ```python
-#Use this exact function to call and create you lineups
 playerusage, dkupload= DFS_NBA_Team_Builder.DK_TeamBuilder.DK_TeamBuildermod(dfr,dkteams,samplepercent)
 ```
 
+This gives you a breakdown of how often you use players you many choose
+
+to resample if you dont like how it looks
 
 ```python
-##This gives you a breakdown of how often you use players you many choose
-#to resample if you dont like how it looks
 playerusage.head()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -111,16 +101,12 @@ playerusage.head()
 
 
 
-
+**This is the file that you actually upload into the draftkings website**
 ```python
-##This is the file that you actually upload into the draftkings website
 dkupload.to_csv("DkTeamsUpload.csv")
 ```
 
 
-```python
-
-```
 
 
 **Purpose**
