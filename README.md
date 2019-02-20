@@ -6,6 +6,10 @@
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Blex42)
 
+**YOUTUBE GUIDE**
+
+[![Package Guide](https://img.youtube.com/vi/GMe1FMl-gMY/default.jpg)](https://youtu.be/GMe1FMl-gMY)
+
 **Install**
 
 `pip install DFSNBA-TeamBuilder`
